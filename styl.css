@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.baner1, .baner2 ,.stopka {
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 100px;
+    float: left;
+    text-align: center;
+}
+li {
+    padding: 5px;
+    margin: 10px;
+    border-bottom: solid 1px white;
+    float: left;
+    list-style: none;
+    color: #aaa;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: #aaa;
+}
+h1 {
+    margin: 5px;
+    padding: 30px;
+}
+.stopka {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+.glowny {
+    background-color: #aaa;
+    width: 100%;
+    float: left;
+    height: 800px;
+    text-align: center;
+    overflow: scroll;
+}
+img {
+    margin: 10px;
+    padding: 10px;
+}
+a:hover {
+    color: white;
+}
